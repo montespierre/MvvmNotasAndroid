@@ -11,6 +11,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    // local 1
     private NoteViewModel noteViewModel;
 
     @Override
