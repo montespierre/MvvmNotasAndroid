@@ -74,8 +74,8 @@ public class AddNoteActivity extends AppCompatActivity {
 
         Intent data = new Intent();
         data.putExtra(EXTRA_TITLE, title);
-        data.putExtra(EXTRA_DESCRIPTION, title);
-        data.putExtra(EXTRA_PRIORITY, title);
+        data.putExtra(EXTRA_DESCRIPTION, description);
+        data.putExtra(EXTRA_PRIORITY, priority);
 
         setResult(RESULT_OK, data);
         finish();
